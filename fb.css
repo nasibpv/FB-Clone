@@ -253,7 +253,7 @@ body{
      }
   
   }
-  @media screen and (max-width: 849px){
+@media screen and (max-width: 849px){
     .logo{
         width: 35%;    
     }
@@ -312,4 +312,103 @@ body{
      .input-row-btn ,.craete-page{
         text-align: center;
      }
-  }
+}
+@media screen and (max-width: 500px){
+    .header{
+        background-color: #3b5998;
+        width: 100%;
+        height:140px
+    }
+    .logo{
+        width: 20%;
+        float: none;   
+    }
+    .login{
+        width: 60%;
+        float: none;
+    }
+    .logo-name{
+        /* font-size: 25px; */
+        font-weight: bold;
+        text-decoration: none;
+        /* margin-left: 10px;         */
+    }
+    .login-label{
+        color: #fff;
+        font-size: 11px;
+    }
+    .login-table{
+        margin-left: 5px;
+    }
+    .login{
+        padding-top: 10px;
+    }
+    .login-button{
+        padding-inline: 5px;
+        height: 22px;
+        cursor: pointer;
+    }
+    .main-body{
+        width: 100%;
+        height:1250px;
+    }
+    .left-body{
+        width: 100%;
+        padding-left: 4px;
+        padding-top: 12px;
+        float: none;
+    }
+    .right-body{
+        float: none;
+        width: 100%;
+    }
+    .body-content{
+        font-size: 20px;
+        padding: 2px;
+
+    }
+    .body-image{
+        width: 361px;
+        height: 280px;
+        padding: 17px;
+    }
+    .rigth-head{
+        padding: 15px;
+        padding-left: 20px;
+    }
+    .form-control{
+        width: 90%;
+        padding: 5px;
+    }
+    .input-row{
+        padding: 5px;
+    }
+    .input-row .input-type{
+        width: 43%;
+        padding: 8px;
+        border-radius: 5px ;
+        border: 1px solid gray;
+    }
+    #input-2{
+        width: 93%;
+    }
+    #input-3{
+        width: 93%;
+    }
+    .first{
+        padding: 5px;
+    }
+    
+    .signup-btn{
+       padding: 7px;
+       width: 65%;
+     }
+    .conditions a{
+font-size: 15px;
+    }
+    .craete-page a{
+        text-decoration: none;
+        font-weight: none;
+    }
+
+}
