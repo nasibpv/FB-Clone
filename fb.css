@@ -57,7 +57,7 @@ body{
 }
 .main-body{
     width: 100%;
-    height:665px;
+    height:685px;
     background: linear-gradient(white,#d3d8eb);
 }
 .left-body{
@@ -128,3 +128,188 @@ body{
     font-weight: bold;
     color: #013686;
 }
+@media screen and (min-width: 1001px) {
+    .logo-name{
+        font-size: 20px;
+        margin-left: 110px;        
+    }
+    .login-table{
+        margin-left: 15px;
+    }
+    .main-body{
+        width: 100%;
+        height:915px;
+    }
+    .left-body{
+        width: 50%;
+        padding-left: 14px;
+        padding-top: 32px;
+        float: left;
+    }
+    .body-image{
+        width: 515px;
+        height: 220px;
+    }
+    .form-control{
+        width: 100%;
+        padding: 5px;
+        font-size: 18px;
+    }
+    #input-2{
+        width: 81%;
+    }
+    #input-3{
+        width: 81%;
+    }
+    .input-row{
+        padding: 7px;
+    }
+    .input-row .input-type{
+        padding: 13px;
+        border-radius: 7px ;
+        border: 2px solid gray;
+    }
+    .first{
+        padding: 3px;
+    }
+   
+  
+  }
+  @media screen and (max-width: 1000px) {
+    .logo{
+        width: 40%;
+    
+    }
+
+    .logo-name{
+        font-size: 20px;
+        margin-left: 50px;        
+    }
+    .login-table{
+        margin-left: 15px;
+    }
+    .main-body{
+        width: 100%;
+        height:1280px;
+    }
+    .right-body{
+        /* float: left; */
+        width: 100%;
+    }
+    .left-body{
+        width: 100%;
+        padding: 0;
+        padding-top: 32px;
+        /* float: left; */
+    }
+    .body-content{
+        padding: 15px;
+        padding-left: 50px;
+    }
+    .body-image{
+        width: 715px;
+        height: 320px;
+        padding-left: 50px;
+    }
+    .rigth-head{
+        padding: 50px;
+    }
+    .rigth-head h1,p{
+        padding-left: 15px;
+    }
+    .rigth-head p{
+        font-size: 20px;
+    }
+    .form-control{
+        width: 100%;
+        padding: 15px;
+        font-size: 21px;
+    }
+    #input-2{
+        width: 77%;
+    }
+    #input-3{
+        width: 77%;
+    }
+    .input-row{
+        padding: 7px;
+    }
+    .input-row .input-type{
+        width: 36%;
+        padding: 15px;
+        border-radius: 7px ;
+        border: 2px solid gray;
+    }
+    .first{
+        padding: 5px;
+    }
+    .signup-btn{
+        padding:13px;
+        width: 50%;
+        
+     }
+     .input-row-btn ,.craete-page{
+        text-align: center;
+     }
+  
+  }
+  @media screen and (max-width: 849px){
+    .logo{
+        width: 35%;    
+    }
+    .logo-name{
+        font-size: 20px;
+        margin-left: 50px;        
+    }
+    .login-table{
+        margin-left: 0px;
+    }
+    .main-body{
+        height:1310px;
+    }
+    .body-image{
+        width: 600px;
+        height: 320px;
+        padding-left: 50px;
+    }
+    .rigth-head{
+        padding: 50px;
+    }
+    .rigth-head h1,p{
+        padding-left: 15px;
+    }
+    .rigth-head p{
+        font-size: 20px;
+    }
+    .form-control{
+        width: 100%;
+        padding: 15px;
+        font-size: 21px;
+    }
+    #input-2{
+        width: 79%;
+    }
+    #input-3{
+        width: 79%;
+    }
+    .input-row{
+        padding: 7px;
+    }
+    .input-row .input-type{
+        width: 36%;
+        padding: 15px;
+        border-radius: 7px ;
+        border: 2px solid gray;
+    }
+    .first{
+        padding: 5px;
+    }
+    .signup-btn{
+        padding:15px;
+        width: 50%;
+        
+     }
+     .input-row-btn ,.craete-page{
+        text-align: center;
+     }
+  }
