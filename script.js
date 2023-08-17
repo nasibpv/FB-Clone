@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $('#signup').submint(function(){
     $("#signup-form").validate({
         rules:{
             fname:{
@@ -22,7 +23,12 @@ $(document).ready(function(){
             date_of_birth:{
                 required:true
                 
-            }
+            },
+            
+        },
+        submitHandler :function(from){ //for demo
+            alert("EVERYTHING OK");
+            return false;
         }
         // highlight:function(input){
         //     $(input).addClass('error');
@@ -30,3 +36,6 @@ $(document).ready(function(){
         // errorPlacement:function(error,element){}
     })
 })
+})
+
+
