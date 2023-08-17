@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Face Book</title>
     <link rel="stylesheet" href="./fb.css" type="text/css">
+    
 </head>
 <body>
     <div class="container">
@@ -41,21 +42,31 @@
                 <div class="rigth-head">
                     <h1>Create an accound</h1>
                     <p>its quick and easy</p>
-                    <div class="form-control">
-                        <form action="">
+                    <div class="form-control" >
+                        <form action="EVERYTHING OK." id="signup-form" >
                             <div class="input-row">
-                                <input type="text" class="input-type input-type1" placeholder="First name">
-                                <input type="text" class="input-type input-type1 " placeholder="Surname">
+                                <input name="fname" type="text" class="input-type input-type1" placeholder="First name">
+                                <input name="sname" type="text" class="input-type input-type1 " placeholder="Surname">
                             </div >
                             <div class="input-row">
-                                <input type="text" class="input-type " id="input-2" placeholder="Mobile number or email address">
+                                <label style="display: none;" id="fname-error" class="error " for="fname">This field is required.</label>
+                                <label style="display: none;" for="sname" id="sname-error" class="error error2">This field is required.</label>
+                            </div >
+                            <div class="input-row">
+                                <input type="text" name="emails" class="input-type " id="input-2" placeholder="Mobile number or email address">
                             </div>
                             <div class="input-row">
-                                <input type="text" name="" id="input-3" class="input-type" placeholder="New password">
+                                 <label style="display: none;"  for="input-2" for="emails" id="emails-error" class="error" > This field is required</label>
                             </div>
+                            <div class="input-row">
+                                <input type="text" name="password" id="input-3" class="input-type" placeholder="New password">
+                            </div>
+                            <div class="input-row">
+                                <label style="display: none;"  for="input-3" id="password-error" class="error" >This field is required</label>
+                           </div>
                             <div class="input-row">
                                 <label id="date_of_birth">Birthday<br />
-                                    <select class="first" name="date_of_birth:day" tabindex="7">
+                                    <select class="first" id="date_of_birth" name="date_of_birth" tabindex="7">
                                         <option value="">
                                         <!-- -->
                                         </option>
@@ -91,7 +102,7 @@
                                         <option value="30">30</option>
                                         <option value="31">31</option>
                                     </select>
-                                    <select class="first" name="date_of_birth:mon" tabindex="8">
+                                    <select class="first" name="date_of_birth" tabindex="8">
                                         <option value="">
                                         <!-- -->
                                         </option>
@@ -108,7 +119,7 @@
                                         <option value="11">Nov</option>
                                         <option value="12">Dec</option>
                                     </select>
-                                    <select class="first" name="date_of_birth:year" tabindex="9">
+                                    <select class="first" id="date_of_birth" name="date_of_birth" tabindex="9">
                                         <option value="">
                                         <!-- -->
                                         </option>
@@ -194,8 +205,10 @@
                                         <option value="1999">1999</option>
                                         <option value="2000">2000</option>
                                     </select>
-                                </label>
-                                
+                                </label>   
+                            </div>
+                            <div class="input-row">
+                                <label id="date_of_birth-error" class="error" for="date_of_birth">This field is required.</label>
                             </div>
                             <div class="input-row">
                                 <label for="">Gender<br>
@@ -206,6 +219,10 @@
                                     <input type="radio" name="gender" id="Custom">
                                     <label for="Custom">Custom</label>
                                 </label>
+                                
+                            </div>
+                            <div class="input-row">
+                                <label id="gender-error" class="error" for="gender">This field is required.</label>
                             </div>
                             <div class="input-row">
                                 <p class="conditions">By clicking Sign Up, you agree to our <a href="">Terms, Data Policy</a><br>and <a href="">Cookie Policy.</a> You many receive SMS notifications from 
@@ -223,5 +240,10 @@
             </div>
         </div>
     </div>  
+    <script
+src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"> </script>
+<script src="script.js"></script>
 </body>
+
 </html>
